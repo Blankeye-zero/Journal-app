@@ -16,4 +16,16 @@ printf "\n";
 
 echo "Response recorded"
 
-tail $path
+printf "\n";
+
+read -p "Do you wnat to see your recent log entries? (Y/N) " choice
+
+if [ $choice = 'Y' ]; then
+
+	tail $path
+	echo "--Exit--"
+
+else 
+	echo "Exiting..."
+fi
+exit 0
