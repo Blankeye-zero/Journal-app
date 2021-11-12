@@ -18,7 +18,7 @@ echo "Response recorded"
 
 printf "\n";
 
-read -p "Do you wnat to see your recent log entries? (Y/N)" choice
+read -p "Do you wnat to see your recent log entries? (Y/N) " choice
 
 if [ $choice = 'Y' ]; then
 
