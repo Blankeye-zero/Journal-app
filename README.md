@@ -18,3 +18,9 @@
 - cd Journal-app
 - sudo chmod 755 logbook.sh (or) sudo chmod +x logbook.sh
 - ./logbook.sh
+
+## Usage
+
+- Once You have completed your log entry, press `ctrl+d` to save
+- The saved log entry will be present at the `$path` location specified in the source file
+
