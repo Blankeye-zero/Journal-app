@@ -6,9 +6,11 @@ path=$HOME/txt/log-book.txt #you can change the path to your desired directory
 
 echo $(date) | cat>>$path
 
-echo "Welcome! $user..."
+echo "Welcome! $user... to exit press ctrl+d"
 
 echo "Type in your logs for $(date)"
+
+printf "\n";
 
 cat>>$path;
 
