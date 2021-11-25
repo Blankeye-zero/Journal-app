@@ -15,7 +15,7 @@
 - Type in the following commands:
 - `git clone https://github.com/Blankeye-zero/Journal-app.git`
 - Add a folder named as `txt` in your `$HOME` directory (or) change the `path` variable to your liking. The journal file is kept within this folder.
-- cd Journal-app
+- `cd Journal-app`
 - `sudo chmod 755 logbook.sh` (or) `sudo chmod +x logbook.sh`
 - `./logbook.sh`
 
